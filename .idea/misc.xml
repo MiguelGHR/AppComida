@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/bg_rounded.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/gradient_1_d.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/gradient_1_d_inv.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_back.xml" value="0.135" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_back_white.xml" value="0.135" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_burger02.xml" value="0.135" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_cart.xml" value="0.135" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_delivery.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_delivery_64.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_food.xml" value="0.135" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_home.xml" value="0.135" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_launcher_background.xml" value="0.135" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_less.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_plus.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/drawable/ic_user.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.147265625" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout-w1240dp/cart_item.xml" value="0.147265625" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout-w1240dp/home_promotion_item.xml" value="0.147265625" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout-w1240dp/item.xml" value="0.147265625" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout-w1240dp/tab_item.xml" value="0.147265625" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/activity_admin.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/activity_main_2.xml" value="0.18" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/activity_map_select.xml" value="0.11510416666666666" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/activity_pago.xml" value="0.33" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/activity_pago_2.xml" value="0.1" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/cart_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/category_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/editor_item.xml" value="0.33" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_buy.xml" value="0.22" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_cart.xml" value="0.2731006160164271" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_category.xml" value="0.15" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_category_item.xml" value="0.22934472934472935" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_editor.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_editor_item.xml" value="0.25" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_home2.xml" value="0.203125" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_item.xml" value="0.33" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_item_editor.xml" value="0.25" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_pago.xml" value="0.25" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_user.xml" value="0.33" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/fragment_user_history.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/history_item.xml" value="0.12141941000427534" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/home_search_result_item.xml" value="0.33" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/layout/tab_item.xml" value="0.33" />
+        <entry key="..\:/Users/MSB19/AndroidStudioProjects/ApplicacionComida/app/src/main/res/menu/navigation.xml" value="0.1675929884566054" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

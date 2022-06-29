@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/semitransparent"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.buy.BuyFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fragment_buy_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="96dp"
+        app:cardCornerRadius="16dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="199dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/fragment_buy_item_image"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:alpha="0.5"
+                android:scaleType="centerCrop"
+                android:src="@drawable/_login_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <Button
+                    android:id="@+id/fragment_buy_accept"
+                    android:layout_width="146dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="Agregar al carrito"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/fragment_buy_cancel" />
+
+                <Button
+                    android:id="@+id/fragment_buy_cancel"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="Cancelar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/fragment_buy_accept"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/fragment_buy_accept" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/fragment_buy_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="TextView"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fragment_buy_title" />
+
+            <ImageButton
+                android:id="@+id/fragment_buy_less"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_less"
+                app:layout_constraintBottom_toBottomOf="@+id/fragment_buy_more"
+                app:layout_constraintEnd_toStartOf="@+id/fragment_buy_count"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/fragment_buy_more"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:cropToPadding="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_plus"
+                app:layout_constraintBottom_toTopOf="@+id/fragment_buy_price"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/fragment_buy_count"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="8dp"
+                android:ems="3"
+                android:enabled="false"
+                android:inputType="number"
+                app:layout_constraintBottom_toBottomOf="@+id/fragment_buy_more"
+                app:layout_constraintEnd_toStartOf="@+id/fragment_buy_more"
+                app:layout_constraintHorizontal_bias="0.528"
+                app:layout_constraintStart_toEndOf="@+id/fragment_buy_less"
+                app:layout_constraintTop_toTopOf="@+id/fragment_buy_more" />
+
+            <TextView
+                android:id="@+id/fragment_buy_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TITULO"
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="20dp"
+                android:text="Subtotal: S/."
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+                app:layout_constraintEnd_toStartOf="@+id/fragment_buy_price"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/fragment_buy_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="-8dp"
+                android:ems="5"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                app:layout_constraintBottom_toBottomOf="@+id/textView14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView14" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/fragment_buy_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:visibility="gone" />
+</LinearLayout>

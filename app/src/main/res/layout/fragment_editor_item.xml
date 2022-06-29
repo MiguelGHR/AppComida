@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".ui.editor_item.EditorItemFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/fragment_editor_item_toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_back_white"
+        app:title="Editar"
+        app:titleTextColor="?attr/colorOnPrimary" />
+
+    <ImageView
+        android:id="@+id/fragment_editor_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_editor_item_toolbar"
+        app:srcCompat="@drawable/ic_file_upload"
+        tools:src="@tools:sample/avatars" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:columnCount="2"
+        android:foregroundGravity="fill_horizontal|fill_vertical|fill"
+        android:rowCount="8"
+        app:layout_constraintBottom_toTopOf="@+id/fragment_editor_accept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_editor_item_image">
+
+        <TextView
+            android:id="@+id/fragment_editor_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fragment_editor_property1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombre"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragment_editor_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fragment_editor_property2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragment_editor_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fragment_editor_property3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragment_editor_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fragment_editor_property4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragment_editor_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fragment_editor_property5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="Correo"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragment_editor_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fragment_editor_property6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragment_editor_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Admin:"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/fragmentEditorProperty7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp" />
+
+        <TextView
+            android:id="@+id/fragment_editor_text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Promocion:"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/fragmentEditorProperty8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp" />
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_editor_item_image">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fragment_editor_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_editor_accept"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/fragment_editor_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="Aceptar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fragment_editor_cancel" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

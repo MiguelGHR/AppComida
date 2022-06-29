@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.main.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:elevation="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/windowBackground"
+            app:layout_behavior=".util.BottomNavigationBehavior"
+            app:menu="@menu/navigation" />
+
+    <com.eme22.floatingsearchview.FloatingSearchView
+        android:id="@+id/floating_search_view"
+        android:layout_width="match_parent"
+        android:elevation="10dp"
+        android:layout_height="match_parent"
+        app:floatingSearch_backgroundColor="@color/semi_transparent"
+        app:floatingSearch_close_search_on_keyboard_dismiss="false"
+        app:floatingSearch_dimBackground="false"
+        app:floatingSearch_dismissOnOutsideTouch="true"
+        app:floatingSearch_leftActionMode="showHamburger"
+        app:floatingSearch_searchBarMarginLeft="@dimen/search_view_inset"
+        app:floatingSearch_searchBarMarginRight="@dimen/search_view_inset"
+        app:floatingSearch_searchBarMarginTop="@dimen/search_view_inset"
+        app:floatingSearch_searchHint="¿Que vamos a comer hoy?"
+        app:floatingSearch_showSearchKey="true"
+        app:floatingSearch_suggestionsListAnimDuration="250" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
